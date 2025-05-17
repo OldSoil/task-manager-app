@@ -1,0 +1,15 @@
+{
+  "name": "mini-task-manager",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "node-process-windows": "^0.0.2",
+    "ps-list": "^8.0.0"
+  },
+  "devDependencies": {
+    "electron": "^36.2.1"
+  }
+}

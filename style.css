@@ -1,0 +1,70 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 0 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#filterInput {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e0e0e0;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+#filterInput::placeholder {
+  color: #777;
+}
+
+#appList {
+  margin-top: 10px;
+}
+
+.app-item {
+  background-color: #1f1f1f;
+  padding: 12px 18px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+  cursor: default;
+}
+
+.app-item:hover {
+  background-color: #2b2b2b;
+}
+
+.app-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  user-select: text;
+}
+
+.close-btn {
+  background-color: #e03e3e;
+  border: none;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.close-btn:hover {
+  background-color: #b53030;
+}
